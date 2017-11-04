@@ -14,7 +14,7 @@ export default () =>  (
     <h1>Hello Next.js</h1>
     <ul>
       <PostLink id="stuff-learned" title="stuff ive learned"/>
-      <PostLink id="random" title="random"/>
+      <PostLink id="hello-nextjs" title="Hello nextjs"/>
       <PostLink id="learn-nextjs" title="Learn Next.js is awesome"/>
       <PostLink id="deploy" title="Deploy apps with Zeit"/>
     </ul>
