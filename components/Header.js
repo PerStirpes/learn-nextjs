@@ -5,20 +5,30 @@ const linkStyle = {
 };
 
 const Header = () => (
+  <nav>
   <div>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <button style={linkStyle}>Home</button>
     </Link>
-    <Link href="/about">
+  </div>
+
+  <div>
+ 
+    <Link href={{ pathname: '/about', query: { name: 'MBC' } }}>
       <a style={linkStyle}>About me</a>
     </Link>
-    <Link href="/portfolio">
+  </div>
+ 
+ <div>
+  <Link href="/portfolio">
       <a style={linkStyle}>Portfolio</a>
     </Link>
-    <Link href="/blog">
+   
+   <Link href="/blog">
       <a style={linkStyle}>blog</a>
     </Link>
   </div>
+</nav>
 );
 
 export default Header;
